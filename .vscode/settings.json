@@ -1,0 +1,9 @@
+{
+  "rust-analyzer.cargo.targetDir": true,
+  "rust-analyzer.check.command": "clippy",
+  "rust-analyzer.files.exclude": ["**/target"],
+  "files.watcherExclude": {
+    "**/target/**": true
+  },
+  "git.detectSubmodulesLimit": 64
+}

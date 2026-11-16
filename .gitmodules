@@ -1,0 +1,176 @@
+[submodule "crownbar"]
+	path = crownbar
+	url = https://github.com/Crown-OS/crownbar.git
+	branch = main
+	ignore = all
+[submodule "crowndictator"]
+	path = crowndictator
+	url = https://github.com/Crown-OS/crowndictator.git
+	branch = main
+	ignore = all
+[submodule "crowndock"]
+	path = crowndock
+	url = https://github.com/Crown-OS/crowndock.git
+	branch = main
+	ignore = all
+[submodule "crownlauncher"]
+	path = crownlauncher
+	url = https://github.com/Crown-OS/crownlauncher.git
+	branch = main
+	ignore = all
+[submodule "crownlink-linux"]
+	path = crownlink-linux
+	url = https://github.com/Crown-OS/crownlink-linux.git
+	branch = main
+	ignore = all
+[submodule "crownos-accounts"]
+	path = crownos-accounts
+	url = https://github.com/Crown-OS/crownos-accounts.git
+	branch = main
+	ignore = all
+[submodule "crownos-appstore"]
+	path = crownos-appstore
+	url = https://github.com/Crown-OS/crownos-appstore.git
+	branch = main
+	ignore = all
+[submodule "crownos-camera"]
+	path = crownos-camera
+	url = https://github.com/Crown-OS/crownos-camera.git
+	branch = main
+	ignore = all
+[submodule "crownos-clipboard"]
+	path = crownos-clipboard
+	url = https://github.com/Crown-OS/crownos-clipboard.git
+	branch = main
+	ignore = all
+[submodule "crownos-config"]
+	path = crownos-config
+	url = https://github.com/Crown-OS/crownos-config.git
+	branch = main
+	ignore = all
+[submodule "crownos-diskmanager"]
+	path = crownos-diskmanager
+	url = https://github.com/Crown-OS/crownos-diskmanager.git
+	branch = main
+	ignore = all
+[submodule "crownos-files"]
+	path = crownos-files
+	url = https://github.com/Crown-OS/crownos-files.git
+	branch = main
+	ignore = all
+[submodule "crownos-icon-theme"]
+	path = crownos-icon-theme
+	url = https://github.com/Crown-OS/crownos-icon-theme.git
+	branch = main
+	ignore = all
+[submodule "crownos-installer"]
+	path = crownos-installer
+	url = https://github.com/Crown-OS/crownos-installer.git
+	branch = main
+	ignore = all
+[submodule "crownos-ipc"]
+	path = crownos-ipc
+	url = https://github.com/Crown-OS/crownos-ipc.git
+	branch = main
+	ignore = all
+[submodule "crownos-iso"]
+	path = crownos-iso
+	url = https://github.com/Crown-OS/crownos-iso.git
+	branch = main
+	ignore = all
+	requires = crownos-installer crownos-icon-theme
+[submodule "crownos-plugins"]
+	path = crownos-plugins
+	url = https://github.com/Crown-OS/crownos-plugins.git
+	branch = main
+	ignore = all
+[submodule "crownos-polkit-agent"]
+	path = crownos-polkit-agent
+	url = https://github.com/Crown-OS/crownos-polkit-agent.git
+	branch = main
+	ignore = all
+[submodule "crownos-preview"]
+	path = crownos-preview
+	url = https://github.com/Crown-OS/crownos-preview.git
+	branch = main
+	ignore = all
+[submodule "crownos-process-monitor"]
+	path = crownos-process-monitor
+	url = https://github.com/Crown-OS/crownos-process-monitor.git
+	branch = main
+	ignore = all
+[submodule "crownos-protocols"]
+	path = crownos-protocols
+	url = https://github.com/Crown-OS/crownos-protocols.git
+	branch = main
+	ignore = all
+[submodule "crownos-screencapture"]
+	path = crownos-screencapture
+	url = https://github.com/Crown-OS/crownos-screencapture.git
+	branch = main
+	ignore = all
+[submodule "crownos-settings"]
+	path = crownos-settings
+	url = https://github.com/Crown-OS/crownos-settings.git
+	branch = main
+	ignore = all
+[submodule "crownos-sound-recorder"]
+	path = crownos-sound-recorder
+	url = https://github.com/Crown-OS/crownos-sound-recorder.git
+	branch = main
+	ignore = all
+[submodule "crownos-theme-engine"]
+	path = crownos-theme-engine
+	url = https://github.com/Crown-OS/crownos-theme-engine.git
+	branch = main
+	ignore = all
+[submodule "crownos-voice"]
+	path = crownos-voice
+	url = https://github.com/Crown-OS/crownos-voice.git
+	branch = main
+	ignore = all
+[submodule "crownotify"]
+	path = crownotify
+	url = https://github.com/Crown-OS/crownotify.git
+	branch = main
+	ignore = all
+[submodule "crownpaper"]
+	path = crownpaper
+	url = https://github.com/Crown-OS/crownpaper.git
+	branch = main
+	ignore = all
+[submodule "crownpositor"]
+	path = crownpositor
+	url = https://github.com/Crown-OS/crownpositor.git
+	branch = main
+	ignore = all
+[submodule "crownui"]
+	path = crownui
+	url = https://github.com/Crown-OS/crownui.git
+	branch = main
+	ignore = all
+[submodule "crownuikit"]
+	path = crownuikit
+	url = https://github.com/Crown-OS/crownuikit.git
+	branch = main
+	ignore = all
+[submodule "ffsp-protocol"]
+	path = ffsp-protocol
+	url = https://github.com/Crown-OS/ffsp-protocol.git
+	branch = main
+	ignore = all
+[submodule "fileshare-linux"]
+	path = fileshare-linux
+	url = https://github.com/Crown-OS/fileshare-linux.git
+	branch = main
+	ignore = all
+[submodule "llts-protocol"]
+	path = llts-protocol
+	url = https://github.com/Crown-OS/lls-protocol.git
+	branch = main
+	ignore = all
+[submodule "vendor"]
+	path = vendor
+	url = https://github.com/Crown-OS/vendor.git
+	branch = main
+	ignore = all
