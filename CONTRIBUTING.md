@@ -149,8 +149,3 @@ just add <repository> [directory]
 
 Use `directory` only when the path dependencies use a different name than the
 GitHub repository. Then commit `.gitmodules` and the new directory.
-
-## Known problems
-
-- `crownuikit` is archived. `fileshare-linux` still needs it, so the workspace
-  contains it. You cannot send changes to it.

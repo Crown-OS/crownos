@@ -149,11 +149,6 @@
 	url = https://github.com/Crown-OS/crownui.git
 	branch = main
 	ignore = all
-[submodule "crownuikit"]
-	path = crownuikit
-	url = https://github.com/Crown-OS/crownuikit.git
-	branch = main
-	ignore = all
 [submodule "ffsp-protocol"]
 	path = ffsp-protocol
 	url = https://github.com/Crown-OS/ffsp-protocol.git
