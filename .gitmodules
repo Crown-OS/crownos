@@ -174,3 +174,8 @@
 	url = https://github.com/Crown-OS/vendor.git
 	branch = main
 	ignore = all
+[submodule "suja"]
+	path = suja
+	url = https://github.com/Crown-OS/suja.git
+	branch = main
+	ignore = all
