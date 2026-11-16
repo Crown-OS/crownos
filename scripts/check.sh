@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 # Usage: check.sh
 # Fails if a Crown-OS git dependency has no local [patch], or if Cargo cannot
-# resolve a cloned component with its committed Cargo.lock.
+# resolve a cloned component with its committed Cargo.lock. It skips a
+# component that does not commit its Cargo.lock.
 
 # shellcheck source=scripts/lib.sh
 source "$(dirname -- "${BASH_SOURCE[0]}")/lib.sh"
@@ -12,6 +13,7 @@ python3 -I scripts/unpatched_git_dependencies.py "${components[@]}" || failed=1
 
 for component in "${components[@]}"; do
     [[ -f $component/Cargo.toml ]] || continue
+    git -C "$component" ls-files --error-unmatch Cargo.lock >/dev/null 2>&1 || continue
     if error=$(cd "$component" && cargo metadata --locked --format-version 1 2>&1 >/dev/null); then
         printf '%-26s ok\n' "$component"
     else

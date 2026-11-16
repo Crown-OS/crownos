@@ -62,7 +62,7 @@ needs `pacman`, `makepkg` and `archiso`.
    branch:
 
    ```sh
-   just setup crowndock           # crowndock and its dependencies only
+   just setup crownbar            # crownbar and its dependencies only
    just setup crownotify crownpaper
    just setup                     # all components
    ```
@@ -152,13 +152,5 @@ GitHub repository. Then commit `.gitmodules` and the new directory.
 
 ## Known problems
 
-- `crownbar` needs `../suja`, which is not on GitHub yet. Until it is, you
-  cannot build `crownbar`. `just setup crownbar` clones all other dependencies
-  and tells you that `suja` is missing.
-- crownui `main` is at 0.2.0, but the `Cargo.lock` files of some components
-  (for example `crowndock` and `crownlauncher`) still record 0.1.1. For these
-  components, `cargo build --locked` and `just check` fail until a maintainer
-  updates the lock file. Until then, build without `--locked`, and do not
-  commit the changed `Cargo.lock` with an unrelated change.
 - `crownuikit` is archived. `fileshare-linux` still needs it, so the workspace
   contains it. You cannot send changes to it.
