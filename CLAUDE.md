@@ -1,8 +1,7 @@
 # CrownOS workspace
 
 This repository contains each CrownOS component as a Git submodule, side by
-side. Read `CONTRIBUTING.md` for the setup. The workspace commands are in the
-`justfile`: `just setup <component>`, `just status`, `just pull`, `just check`.
+side.
 
 ## Layout rules
 
@@ -21,16 +20,17 @@ side. Read `CONTRIBUTING.md` for the setup. The workspace commands are in the
 
 ## Code rules
 
+- Do not write comments that only repeat the code. If code needs a comment to be understood,
+  restructure the code.
 - Use meaningful, complete, self-explanatory names for variables, functions,
   traits and modules.
-- Follow idiomatic Rust. Use a Cargo workspace for each Rust project and keep
-  each layer in a separate, composable crate.
+- Follow idiomatic Rust practices.
+- Use a Cargo workspace for each Rust project and keep each layer in a
+  separate, composable crate.
 - Keep the solution simple: the best performance with the fewest lines of code
   that stay readable.
 - Profile each component to optimize for performance and a low memory footprint.
   Use hardware acceleration (GPU, SIMD) where it measurably improves performance.
-- Do not write comments that only repeat the code. If code needs a comment to be
-  understood, change the code.
 - Do not put all functions and traits in one file. Make separate files and modules.
 - Keep utility functions in `<crate-name>/utils/<name>.rs`, one module for each utility.
 - Follow the folder structure that is already in the repository.
@@ -41,8 +41,16 @@ side. Read `CONTRIBUTING.md` for the setup. The workspace commands are in the
 - crownui windows use client-side decorations. Each app must add the kit
   `window_controls()` or `title_bar_spacer()`, or the window has no close button.
 
-## Commits and docs
+## Testing
+
+- Test everything feature by feature after each milestone in a nested crownpositor.
+
+## Text rules
+
+- Keep all the text simple human like.
+- Write technical docs and comments in ASD-STE100 Simplified Technical English.
+
+## Tooling
 
 - Sign off each commit with `git commit -s`. The Crown-OS repositories require
   the DCO `Signed-off-by` line.
-- Write technical docs and comments in ASD-STE100 Simplified Technical English.

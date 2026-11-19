@@ -1,12 +1,11 @@
 # crownos
 
-All CrownOS component repositories as Git submodules, side by side, with the
-commands, conventions and agent skills to work on them together.
+This repository contains all the crownos components as git submodules.
 
 ```sh
 git clone https://github.com/Crown-OS/crownos.git
 cd crownos
-just setup crowndock       # crowndock and only the repositories it needs
+just setup crowndock # setup the environment for crowndock development with its dependencies
 just status
 ```
 
