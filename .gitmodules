@@ -174,3 +174,8 @@
 	url = https://github.com/Crown-OS/suja.git
 	branch = main
 	ignore = all
+[submodule "crownos-update"]
+	path = crownos-update
+	url = https://github.com/Crown-OS/crownos-update.git
+	branch = main
+	ignore = all
