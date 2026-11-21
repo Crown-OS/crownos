@@ -13,6 +13,11 @@ status:
 pull:
     scripts/pull.sh
 
+# Build and run a component binary: just run crownbar, just run crownpaper/crownpaper-video [ARGUMENT...]; -r builds with --release
+[positional-arguments]
+run target *arguments:
+    scripts/run.sh "$@"
+
 # Check that Crown-OS git dependencies are patched to local clones and that Cargo resolves each component
 check:
     scripts/check.sh

@@ -94,6 +94,16 @@ cargo clippy --all-targets -- -D warnings
 cargo test
 ```
 
+To build and run a binary from the workspace root, use `just run`. It gives
+the remaining arguments to the binary:
+
+```sh
+just run crownbar                       # the binary with the name of the component
+just run crownpaper/crownpaper-video    # a different binary of the component
+just run crownos-update                 # lists the binaries if it cannot select one
+just run -r crownbar                    # builds with --release
+```
+
 Before you send a change, run `just check` from the workspace root. It does
 these checks on each cloned component:
 

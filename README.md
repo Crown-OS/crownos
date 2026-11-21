@@ -7,6 +7,7 @@ git clone https://github.com/Crown-OS/crownos.git
 cd crownos
 just setup crowndock # setup the environment for crowndock development with its dependencies
 just status
+just run crowndock # build and run crowndock; just run crownpaper/crownpaper-video for a second binary
 ```
 
 - [CONTRIBUTING.md](CONTRIBUTING.md) tells you how to set up, build and send a change.
