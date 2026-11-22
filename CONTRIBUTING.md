@@ -35,10 +35,10 @@ needs `pacman`, `makepkg` and `archiso`.
 
    ```sh
    sudo pacman -S --needed git just python rustup
-   rustup toolchain install 1.97.1 --component rustfmt clippy rust-src
+   rustup toolchain install 1.100.0 --component rustfmt clippy rust-src
    ```
 
-   `rust-toolchain.toml` in this repository selects Rust 1.97.1. Some
+   `rust-toolchain.toml` in this repository selects Rust 1.100.0. Some
    components have their own `rust-toolchain.toml`, which takes precedence.
 
 2. To build the ISO, install these tools also:
