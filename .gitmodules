@@ -179,3 +179,73 @@
 	url = https://github.com/Crown-OS/crownos-update.git
 	branch = main
 	ignore = all
+[submodule "crownos-home"]
+	path = crownos-home
+	url = https://github.com/Crown-OS/crownos-home.git
+	branch = main
+	ignore = all
+[submodule "crownos-messages"]
+	path = crownos-messages
+	url = https://github.com/Crown-OS/crownos-messages.git
+	branch = main
+	ignore = all
+[submodule "crownos-myphone"]
+	path = crownos-myphone
+	url = https://github.com/Crown-OS/crownos-myphone.git
+	branch = main
+	ignore = all
+[submodule "crownlink-android"]
+	path = crownlink-android
+	url = https://github.com/Crown-OS/crownlink-android.git
+	branch = main
+	ignore = all
+[submodule "xdg-desktop-portal-crownos"]
+	path = xdg-desktop-portal-crownos
+	url = https://github.com/Crown-OS/xdg-desktop-portal-crownos.git
+	branch = main
+	ignore = all
+[submodule "crownos-computer-use"]
+	path = crownos-computer-use
+	url = https://github.com/Crown-OS/crownos-computer-use.git
+	branch = main
+	ignore = all
+[submodule "crownos-visual-context-engine"]
+	path = crownos-visual-context-engine
+	url = https://github.com/Crown-OS/crownos-visual-context-engine.git
+	branch = main
+	ignore = all
+[submodule "crownos-remote-desktop"]
+	path = crownos-remote-desktop
+	url = https://github.com/Crown-OS/crownos-remote-desktop.git
+	branch = main
+	ignore = all
+[submodule "crownos-android"]
+	path = crownos-android
+	url = https://github.com/Crown-OS/crownos-android.git
+	branch = main
+	ignore = all
+[submodule "migration-assistant"]
+	path = migration-assistant
+	url = https://github.com/Crown-OS/migration-assistant.git
+	branch = main
+	ignore = all
+[submodule "crownpad"]
+	path = crownpad
+	url = https://github.com/Crown-OS/crownpad.git
+	branch = main
+	ignore = all
+[submodule "crowncamera"]
+	path = crowncamera
+	url = https://github.com/Crown-OS/crowncamera.git
+	branch = main
+	ignore = all
+[submodule "iconsmith"]
+	path = iconsmith
+	url = https://github.com/Crown-OS/iconsmith.git
+	branch = main
+	ignore = all
+[submodule "crownos-waydroid-hwc"]
+	path = crownos-waydroid-hwc
+	url = https://github.com/Crown-OS/crownos-waydroid-hwc.git
+	branch = crownos
+	ignore = all
