@@ -29,9 +29,24 @@ Run `just setup crownos-iso <component>` first.
 
 4. Attach only packages whose dependencies are in Arch Linux or CachyOS.
 
-5. For a dock entry, change `crownos-iso/config/crownos/dock.ron`. Do not
-   change `crownos-iso/profile/airootfs/home/crownos-live/.config`; the build
-   makes it.
+5. Defaults and services follow system updates only through files that a
+   package owns:
+   - For a dock entry or another default setting, change
+     `crownos-iso/config/crownos/<section>.ron`. crownos-base installs it to
+     `/usr/share/crownos/defaults/`. Do not put it in `/etc/skel` or in
+     `crownos-iso/profile/airootfs/home/crownos-live/.config`.
+   - For a program that must start with the desktop, add it to
+     `session_startup` in `crownos-iso/config/crownos/compositor.ron`, not to
+     `startup`.
+   - For a system service, add an `enable` line to
+     `crownos-iso/packaging/crownos-base/80-crownos.preset`. The installer and
+     `crownos-updated` enable new preset lines; `systemctl enable` in a script
+     reaches only new installs. A release that adds a unit needs
+     `restart = "soft-reboot"` or `"reboot"`.
+   - For a user service, add a `default.target.wants` link in the crownos-base
+     PKGBUILD, as `crownos-automount` does.
+   - To remove a package from installed systems, add it to `retired` in
+     `crownos-iso/releases/<version>/release.toml`.
 
 6. A crownui app must add the kit `window_controls()` or
    `title_bar_spacer()`, or its window has no close button.
