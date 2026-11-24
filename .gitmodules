@@ -249,3 +249,8 @@
 	url = https://github.com/Crown-OS/crownos-waydroid-hwc.git
 	branch = crownos
 	ignore = all
+[submodule "crownos-secrets-manager"]
+	path = crownos-secrets-manager
+	url = https://github.com/Crown-OS/crownos-secrets-manager.git
+	branch = main
+	ignore = all
